@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from './Button';
+import Author from './Author';
 import './Story.css';
 
 const Story = (props) => {
-  // debugger
   return (
     <div className='Story'>
       <img src={props.img} alt="Book"/>
@@ -13,12 +13,12 @@ const Story = (props) => {
           <p>{props.desc}</p>
         </div>
         <div className='author-info'>
-          <img src={props.authImg} alt="Author image" />
-          <div className='author-info-text'>
-          {props.authName}
-          <span>{props.estTime} read</span>
-          </div>
-        </div>
+          {
+            <div className='story-info'>
+              <Author {...props} />
+            </div>    
+          }
+          </div>      
       </div>
     </div>
   )

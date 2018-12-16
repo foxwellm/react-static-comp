@@ -37,25 +37,3 @@
 .book-info {
   padding: 15px;
 }
-
-.author-info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 50px;
-  align-content: flex-start;
-  font-size: 10px;
-}
-
-.author-info-text {
-  display: flex;
-  flex-direction: column;
-  padding: 13px 0px;
-}
-
-.author-info img {
-  padding: 10px;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-}
