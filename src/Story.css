@@ -1,0 +1,61 @@
+.Story {
+  display: flex;
+  min-width: 100%;
+  max-width: 100%;
+  height: 250px;
+  border: 2px solid ghostwhite;
+  margin-top: 20px;
+}
+
+.Story img {
+  width: 175px;
+}
+
+.story-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  width: 49%;
+}
+
+.story-info div {
+  width: 288px;
+}
+
+.story-info h3 {
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.story-info p {
+  font-weight: lighter;
+  line-height: 150%;
+  margin: 0;
+}
+
+.book-info {
+  padding: 15px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50px;
+  align-content: flex-start;
+  font-size: 10px;
+}
+
+.author-info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 0px;
+}
+
+.author-info img {
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
